@@ -2,3 +2,15 @@ You'll be teaching Dog about their names through two methods, #name, and #name= 
 
 Give a Dog a Breed
 You'll be teaching Dog about their breed through two methods, #breed, and #breed= that read and write to a corresponding instance variable @breed.
+
+class Dog
+  
+  def initialize(name)
+    @name = name
+  end
+  def name=(name)
+    @name = name
+  end
+  def initialize(breed)
+  
+end
